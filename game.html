@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Crush 消消樂</title>
+  <link rel="stylesheet" href="game.css?v=1">
+</head>
+<body>
+  <main class="game-wrap">
+    <h1>🍬 Candy Crush 消消樂</h1>
+    <p class="subtitle">揀兩粒相鄰嘅糖嚟交換，消到 3 粒或以上就得分</p>
+
+    <div class="hud">
+      <div class="stat"><span>分數</span><strong id="score">0</strong></div>
+      <div class="stat"><span>步數</span><strong id="moves">30</strong></div>
+    </div>
+
+    <div id="board" class="board"></div>
+    <p id="message" class="message"></p>
+
+    <div class="actions">
+      <a href="index.html" class="btn ghost">← 返去主頁</a>
+      <button id="restart" class="btn">再玩一次</button>
+    </div>
+  </main>
+
+  <script src="game.js?v=1"></script>
+</body>
+</html>
